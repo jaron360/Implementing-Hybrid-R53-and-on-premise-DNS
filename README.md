@@ -1,5 +1,5 @@
 # Implementing-Hybrid-R53-and-on-premise-DNS
-In this demonstration I will integrate the DNS platforms of AWS and a linux based, simulated on-premises environment using Route53 inbound and outbound endpoints.
+In this demonstration I will integrate the DNS platforms of AWS and a linux based, simulated on-premises environment using Route53 inbound and outbound endpoints. This demonstration follows the original setup from Adrian Cantrill.
 
 The demo consists of 4 stages, each implementing additional components of the architecture
 ```
