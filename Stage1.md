@@ -45,11 +45,17 @@ Select A4L-AWS-EC2-A right click and connect, select session manager click conne
 12. Select A4L-ONPREM-APP right click, select connect, choose session manager, click connect Type ping web.aws.animals4life.org
 13. Verify you get the error ping: web.aws.animals4life.org: Name or Service not known
 14. This proves that there is no resolution from the on-premises environment to AWS
-15. Move back to the EC2 Console
-16. Select A4L-AWS-EC2-A and copy its Private IP into your clipboard
-17. Move back to the session manager connection to A4L-ONPREM-APP
-18. Type ping THEIPADDRESSYOUJUSTCOPIED
-19. Verify you DON'T Receive a ping response ... proving that there is no networking connectivity between the ON-PREMISES and AWS Environments
+
+<img width="477" height="89" alt="image" src="https://github.com/user-attachments/assets/290c5256-dcbf-4fa7-97b1-ac896e9415e6" />
+
+16. Move back to the EC2 Console
+17. Select A4L-AWS-EC2-A and copy its Private IP into your clipboard
+18. Move back to the session manager connection to A4L-ONPREM-APP
+19. Type ping THEIPADDRESSYOUJUSTCOPIED
+20. Verify you DON'T Receive a ping response ... proving that there is no networking connectivity between the ON-PREMISES and AWS Environments
+
+<img width="480" height="106" alt="image" src="https://github.com/user-attachments/assets/254b9ab0-6355-4533-bc35-713d09307a7c" />
+
 
 ## STAGE 1 - FINISH
 This is the end of STAGE1 of this advanced demo. You have created the AWS and ON-PREMISES environment and verified that no DNS or IP connectivity exist between the two environments.
